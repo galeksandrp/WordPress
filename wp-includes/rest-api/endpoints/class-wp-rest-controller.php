@@ -314,7 +314,7 @@ abstract class WP_REST_Controller {
 				'type'              => 'integer',
 				'default'           => 10,
 				'minimum'           => 1,
-				'maximum'           => 100,
+				'maximum'           => 20000,
 				'sanitize_callback' => 'absint',
 				'validate_callback' => 'rest_validate_request_arg',
 			),
